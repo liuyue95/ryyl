@@ -8,11 +8,15 @@
   margin-right:0;
   text-align:left;
 }
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
 #base {
   position:absolute;
   z-index:0;
 }
-#u1985 {
+#u1541 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -20,7 +24,7 @@
   width:0px;
   height:0px;
 }
-#u1986_div {
+#u1542_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -47,13 +51,14 @@
   text-align:left;
   line-height:22px;
 }
-#u1986 {
+#u1542 {
   border-width:0px;
   position:absolute;
   left:48px;
   top:72px;
   width:632px;
   height:66px;
+  display:flex;
   font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
   font-weight:650;
   font-style:normal;
@@ -62,15 +67,18 @@
   text-align:left;
   line-height:22px;
 }
-#u1986_text {
-  border-width:0px;
+#u1542 .text {
   position:absolute;
-  left:24px;
-  top:22px;
-  width:584px;
+  width:100%;
+  align-self:center;
+  padding:16px 24px 16px 24px;
+  box-sizing:border-box;
+}
+#u1542_text {
+  border-width:0px;
   word-wrap:break-word;
 }
-#u1987 {
+#u1543 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -78,7 +86,7 @@
   width:0px;
   height:0px;
 }
-#u1988_img {
+#u1544_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -86,27 +94,31 @@
   width:15px;
   height:15px;
 }
-#u1988 {
+#u1544 {
   border-width:0px;
   position:absolute;
   left:635px;
   top:94px;
   width:15px;
   height:15px;
+  display:flex;
   font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
-#u1988_text {
-  border-width:0px;
+#u1544 .text {
   position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
+  width:100%;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+}
+#u1544_text {
+  border-width:0px;
   visibility:hidden;
   word-wrap:break-word;
 }
-#u1989_img {
+#u1545_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -114,20 +126,24 @@
   width:190px;
   height:233px;
 }
-#u1989 {
+#u1545 {
   border-width:0px;
   position:absolute;
   left:199px;
   top:267px;
   width:190px;
   height:233px;
+  display:flex;
 }
-#u1989_text {
-  border-width:0px;
+#u1545 .text {
   position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
+  width:100%;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+}
+#u1545_text {
+  border-width:0px;
   visibility:hidden;
   word-wrap:break-word;
 }
