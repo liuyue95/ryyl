@@ -4,16 +4,40 @@
     <title>添加合作方</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
     <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
     <link href="data/styles.css" type="text/css" rel="stylesheet"/>
     <link href="files/添加合作方/styles.css" type="text/css" rel="stylesheet"/>
-    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
-    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
-    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
     <script src="data/document.js"></script>
-    <script src="resources/scripts/prototypePost.js"></script>
     <script src="files/添加合作方/data.js"></script>
     <script type="text/javascript">
       $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
@@ -31,16 +55,19 @@
         <div id="u994" class="ax_default shape">
           <div id="u994_div" class=""></div>
           <div id="u994_text" class="text ">
-            <p><span>添加合作方</span></p>
+            <p><span style="text-decoration:none;">添加合作方</span></p>
           </div>
         </div>
 
         <!-- Unnamed (组合) -->
         <div id="u995" class="ax_default" data-left="650" data-top="22" data-width="17" data-height="15">
 
-          <!-- Unnamed (图片) -->
+          <!-- Unnamed (图片 ) -->
           <div id="u996" class="ax_default image">
             <img id="u996_img" class="img " src="images/查看详情/u306.png"/>
+            <div id="u996_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
           </div>
         </div>
       </div>
@@ -55,7 +82,7 @@
           <div id="u999" class="ax_default label1">
             <div id="u999_div" class=""></div>
             <div id="u999_text" class="text ">
-              <p><span>联系电话：</span></p>
+              <p><span style="text-decoration:none;">联系电话：</span></p>
             </div>
           </div>
 
@@ -63,7 +90,7 @@
           <div id="u1000" class="ax_default shape">
             <div id="u1000_div" class=""></div>
             <div id="u1000_text" class="text ">
-              <p><span>请输入联系电话</span></p>
+              <p><span style="text-decoration:none;">请输入联系电话</span></p>
             </div>
           </div>
         </div>
@@ -79,7 +106,7 @@
           <div id="u1003" class="ax_default label1">
             <div id="u1003_div" class=""></div>
             <div id="u1003_text" class="text ">
-              <p><span>合作方名称：</span></p>
+              <p><span style="text-decoration:none;">合作方名称：</span></p>
             </div>
           </div>
 
@@ -87,7 +114,7 @@
           <div id="u1004" class="ax_default shape">
             <div id="u1004_div" class=""></div>
             <div id="u1004_text" class="text ">
-              <p><span>请输入合作方名称</span></p>
+              <p><span style="text-decoration:none;">请输入合作方名称</span></p>
             </div>
           </div>
         </div>
@@ -99,17 +126,18 @@
         <!-- Unnamed (组合) -->
         <div id="u1006" class="ax_default" data-left="72" data-top="206" data-width="310" data-height="39">
 
-          <!-- Unnamed (下拉列表框) -->
+          <!-- Unnamed (下拉列表) -->
           <div id="u1007" class="ax_default droplist">
-            <select id="u1007_input">
-              <option value="请选择">请选择</option>
-              <option selected value="濮阳油田医院">濮阳油田医院</option>
-              <option value="郸城中医院">郸城中医院</option>
-              <option value="长垣县中医院,">长垣县中医院,</option>
-              <option value="河南圣德医院">河南圣德医院</option>
-              <option value="漯河中医院">漯河中医院</option>
-              <option value="安阳市第二人民医院">安阳市第二人民医院</option>
-              <option value="河南省人民医院">河南省人民医院</option>
+            <div id="u1007_div" class=""></div>
+            <select id="u1007_input" class="u1007_input">
+              <option class="u1007_input_option" value="请选择">请选择</option>
+              <option class="u1007_input_option" selected value="濮阳油田医院">濮阳油田医院</option>
+              <option class="u1007_input_option" value="郸城中医院">郸城中医院</option>
+              <option class="u1007_input_option" value="长垣县中医院,">长垣县中医院,</option>
+              <option class="u1007_input_option" value="河南圣德医院">河南圣德医院</option>
+              <option class="u1007_input_option" value="漯河中医院">漯河中医院</option>
+              <option class="u1007_input_option" value="安阳市第二人民医院">安阳市第二人民医院</option>
+              <option class="u1007_input_option" value="河南省人民医院">河南省人民医院</option>
             </select>
           </div>
 
@@ -117,7 +145,7 @@
           <div id="u1008" class="ax_default label1">
             <div id="u1008_div" class=""></div>
             <div id="u1008_text" class="text ">
-              <p><span>合作医院：</span></p>
+              <p><span style="text-decoration:none;">合作医院：</span></p>
             </div>
           </div>
         </div>
@@ -130,7 +158,7 @@
         <div id="u1010" class="ax_default sticky_2">
           <div id="u1010_div" class=""></div>
           <div id="u1010_text" class="text ">
-            <p><span>立即更新</span></p>
+            <p><span style="text-decoration:none;">立即更新</span></p>
           </div>
         </div>
 
@@ -138,20 +166,27 @@
         <div id="u1011" class="ax_default shape">
           <div id="u1011_div" class=""></div>
           <div id="u1011_text" class="text ">
-            <p><span>取 消</span></p>
+            <p><span style="text-decoration:none;">取 消</span></p>
           </div>
         </div>
       </div>
 
-      <!-- Unnamed (图片) -->
+      <!-- Unnamed (图片 ) -->
       <div id="u1012" class="ax_default _图片">
         <img id="u1012_img" class="img " src="images/编辑/u343.png"/>
+        <div id="u1012_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
       </div>
 
-      <!-- Unnamed (图片) -->
+      <!-- Unnamed (图片 ) -->
       <div id="u1013" class="ax_default _图片">
         <img id="u1013_img" class="img " src="images/编辑/u343.png"/>
+        <div id="u1013_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
       </div>
     </div>
+    <script src="resources/scripts/axure/ios.js"></script>
   </body>
 </html>
