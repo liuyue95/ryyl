@@ -8,15 +8,11 @@
   margin-right:0;
   text-align:left;
 }
-.form_sketch {
-  border-color:transparent;
-  background-color:transparent;
-}
 #base {
   position:absolute;
   z-index:0;
 }
-#u3387_div {
+#u3411_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -40,14 +36,13 @@
   text-align:left;
   line-height:22px;
 }
-#u3387 {
+#u3411 {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:632px;
   height:430px;
-  display:flex;
   font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
@@ -56,19 +51,16 @@
   text-align:left;
   line-height:22px;
 }
-#u3387 .text {
-  position:absolute;
-  width:100%;
-  align-self:center;
-  padding:2px 16px 2px 16px;
-  box-sizing:border-box;
-}
-#u3387_text {
+#u3411_text {
   border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
   visibility:hidden;
   word-wrap:break-word;
 }
-#u3388 {
+#u3412 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -76,7 +68,7 @@
   width:0px;
   height:0px;
 }
-#u3389_div {
+#u3413_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -103,14 +95,13 @@
   text-align:left;
   line-height:22px;
 }
-#u3389 {
+#u3413 {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:632px;
   height:66px;
-  display:flex;
   font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
   font-weight:650;
   font-style:normal;
@@ -119,18 +110,15 @@
   text-align:left;
   line-height:22px;
 }
-#u3389 .text {
-  position:absolute;
-  width:100%;
-  align-self:center;
-  padding:16px 24px 16px 24px;
-  box-sizing:border-box;
-}
-#u3389_text {
+#u3413_text {
   border-width:0px;
+  position:absolute;
+  left:24px;
+  top:22px;
+  width:584px;
   word-wrap:break-word;
 }
-#u3390 {
+#u3414 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -138,7 +126,7 @@
   width:0px;
   height:0px;
 }
-#u3391_img {
+#u3415_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -146,31 +134,27 @@
   width:15px;
   height:15px;
 }
-#u3391 {
+#u3415 {
   border-width:0px;
   position:absolute;
   left:587px;
   top:22px;
   width:15px;
   height:15px;
-  display:flex;
   font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
-#u3391 .text {
-  position:absolute;
-  width:100%;
-  align-self:center;
-  padding:2px 2px 2px 2px;
-  box-sizing:border-box;
-}
-#u3391_text {
+#u3415_text {
   border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
   visibility:hidden;
   word-wrap:break-word;
 }
-#u3392 {
+#u3416 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -178,7 +162,7 @@
   width:0px;
   height:0px;
 }
-#u3393 {
+#u3417 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -186,12 +170,12 @@
   width:0px;
   height:0px;
 }
-#u3394_div {
+#u3418_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:140px;
+  width:141px;
   height:39px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -206,37 +190,33 @@
   color:#000000;
   line-height:22px;
 }
-#u3394 {
+#u3418 {
   border-width:0px;
   position:absolute;
   left:192px;
   top:95px;
-  width:140px;
+  width:141px;
   height:39px;
-  display:flex;
   font-family:'MicrosoftYaHei', '微软雅黑';
   font-weight:400;
   font-style:normal;
   color:#000000;
   line-height:22px;
 }
-#u3394 .text {
-  position:absolute;
-  width:100%;
-  align-self:flex-start;
-  padding:5px 0px 21px 0px;
-  box-sizing:border-box;
-}
-#u3394_text {
+#u3418_text {
   border-width:0px;
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:141px;
   white-space:nowrap;
 }
-#u3395_div {
+#u3419_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:60px;
+  width:61px;
   height:32px;
   background:inherit;
   background-color:rgba(24, 144, 255, 1);
@@ -251,37 +231,33 @@
   font-size:14px;
   color:#FFFFFF;
 }
-#u3395 {
+#u3419 {
   border-width:0px;
   position:absolute;
-  left:170px;
+  left:169px;
   top:193px;
-  width:60px;
+  width:61px;
   height:32px;
-  display:flex;
   font-family:'MicrosoftYaHei', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
-#u3395 .text {
-  position:absolute;
-  width:100%;
-  align-self:center;
-  padding:2px 16px 2px 16px;
-  box-sizing:border-box;
-}
-#u3395_text {
+#u3419_text {
   border-width:0px;
+  position:absolute;
+  left:16px;
+  top:6px;
+  width:29px;
   white-space:nowrap;
 }
-#u3396_div {
+#u3420_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:60px;
+  width:61px;
   height:32px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
@@ -300,14 +276,13 @@
   color:rgba(0, 0, 0, 0.647058823529412);
   line-height:21px;
 }
-#u3396 {
+#u3420 {
   border-width:0px;
   position:absolute;
-  left:262px;
+  left:261px;
   top:193px;
-  width:60px;
+  width:61px;
   height:32px;
-  display:flex;
   font-family:'MicrosoftYaHei', '微软雅黑';
   font-weight:400;
   font-style:normal;
@@ -315,18 +290,15 @@
   color:rgba(0, 0, 0, 0.647058823529412);
   line-height:21px;
 }
-#u3396 .text {
-  position:absolute;
-  width:100%;
-  align-self:center;
-  padding:2px 16px 2px 16px;
-  box-sizing:border-box;
-}
-#u3396_text {
+#u3420_text {
   border-width:0px;
+  position:absolute;
+  left:16px;
+  top:6px;
+  width:29px;
   white-space:nowrap;
 }
-#u3397_img {
+#u3421_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -334,29 +306,25 @@
   width:26px;
   height:28px;
 }
-#u3397 {
+#u3421 {
   border-width:0px;
   position:absolute;
   left:141px;
   top:101px;
   width:26px;
   height:28px;
-  display:flex;
-  font-family:'anticon Normal', 'anticon';
+  font-family:'anticon';
   font-weight:400;
   font-style:normal;
   font-size:32px;
   color:#F04134;
 }
-#u3397 .text {
-  position:absolute;
-  width:100%;
-  align-self:center;
-  padding:2px 2px 2px 2px;
-  box-sizing:border-box;
-}
-#u3397_text {
+#u3421_text {
   border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
   visibility:hidden;
   word-wrap:break-word;
 }
